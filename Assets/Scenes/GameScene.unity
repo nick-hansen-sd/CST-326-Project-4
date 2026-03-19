@@ -719,6 +719,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1269037711 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7112350800817994747, guid: 6a9f307261427f54297a2f61fb62f669, type: 3}
+  m_PrefabInstance: {fileID: 49867125}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1645ca4a23e9f4595ea0bb5d967423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClearCounter
 --- !u!1 &1376662205
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,6 +918,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7112350800817994747, guid: 6a9f307261427f54297a2f61fb62f669, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7112350800817994747, guid: 6a9f307261427f54297a2f61fb62f669, type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 1269037711}
     - target: {fileID: 3441772279694852016, guid: 6a9f307261427f54297a2f61fb62f669, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
